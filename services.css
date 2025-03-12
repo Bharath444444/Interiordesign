@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #545353;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  .nav-links a:hover {
+    color: #ff7c7c;
+  }
+  .banner {
+    background-image: url('https://images.livspace-cdn.com/w:1920/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/homepage/banner-1714034487-xNaST/homepage-banner-web-1714034622-yivWL.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    margin-top: 0%;
+  }
+  
+  .banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+  }
+  
+  .banner-content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .banner h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  
+  .banner p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #fff;
+  }
+  
+  .btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff7c7c;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #ff4c4c;
+  }
+  .text-section{
+    max-width: 800px;
+  margin: 20px auto;
+  text-align: center;
+  line-height: 1.6;
+  }
+  .text-section h1 {
+    font-size: 2.5rem;
+    color: #ece4e4;
+    margin-bottom:5px;
+  }
+  
+  .text-section p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 40px;
+  }
+
+.about-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.about-image {
+    width: 300px; /* Adjust the width as needed */
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.about-text {
+    flex: 1; /* Allow the text to take the remaining space */
+}
+
+.about-text {
+    line-height: 1.6;
+    color: #585858;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #545353; /* Dark background */
+    color: #fff9f9; /* White text */
+    padding: 20px 0; /* Padding for top and bottom */
+    text-align: center; /* Center the content */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Footer Container */
+  .footer-container {
+    
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: white;
+  }
+  /* Footer Left */
+  .footer-left {
+    font-size: 1rem;
+    margin-bottom:30px;
+    color: #fff;
+  }
+  
+  /* Footer Right */
+  .footer-right ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+  }
+  
+  .footer-right ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .footer-right ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-right ul li a:hover {
+    color: #ff7c7c;
+  }
+  .social-link img {
+    width: 40px;  
+    height: 40px;
+    border-radius: 50%;  
+    transition: transform 0.3s ease; 
+  }
+  .social-link img:hover {
+    transform: scale(1.1); 
+  }
+  
+  .social-link {
+    text-decoration: none; 
+  }
